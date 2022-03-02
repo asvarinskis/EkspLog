@@ -1,1 +1,2 @@
 # EkspLog
+Autors: A. Svarinskis
