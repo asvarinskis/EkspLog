@@ -1,0 +1,14 @@
+C:\Users\Solidboy878\Desktop\EkspLog\bin\Debug\EkspLog.exe.config
+C:\Users\Solidboy878\Desktop\EkspLog\bin\Debug\EkspLog.exe
+C:\Users\Solidboy878\Desktop\EkspLog\bin\Debug\EkspLog.pdb
+C:\Users\Solidboy878\Desktop\EkspLog\obj\Debug\EkspLog.csproj.AssemblyReference.cache
+C:\Users\Solidboy878\Desktop\EkspLog\obj\Debug\EkspLog.Form1.resources
+C:\Users\Solidboy878\Desktop\EkspLog\obj\Debug\EkspLog.Properties.Resources.resources
+C:\Users\Solidboy878\Desktop\EkspLog\obj\Debug\EkspLog.csproj.GenerateResource.cache
+C:\Users\Solidboy878\Desktop\EkspLog\obj\Debug\EkspLog.csproj.CoreCompileInputs.cache
+C:\Users\Solidboy878\Desktop\EkspLog\obj\Debug\EkspLog.exe
+C:\Users\Solidboy878\Desktop\EkspLog\obj\Debug\EkspLog.pdb
+C:\Users\Solidboy878\Desktop\EkspLog\obj\Debug\EkspLog.Form2.resources
+C:\Users\Solidboy878\Desktop\EkspLog\obj\Debug\EkspLog.Form3.resources
+C:\Users\Solidboy878\Desktop\EkspLog\obj\Debug\EkspLog.Form4.resources
+C:\Users\Solidboy878\Desktop\EkspLog\obj\Debug\EkspLog.FormLog1.resources
