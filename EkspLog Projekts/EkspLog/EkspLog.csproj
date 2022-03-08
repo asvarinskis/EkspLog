@@ -101,6 +101,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -114,6 +115,93 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1st - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1st - Copy - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1st - Copy - Copy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1st - Copy - Copy %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1st - Copy - Copy %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1st - Copy - Copy %282%292.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2nd - Copy %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2nd - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3rd 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3rd 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4th 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4th 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5th 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5th 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1st 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1st - Copy - Copy2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2nd 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2nd - Copy - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2nd - Copy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3rd 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3rd - Copy - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4th 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4th - Copy - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4th - Copy - Copy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5th 11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5th - Copy - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5th - Copy - Copy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5th - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5th - Copy1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

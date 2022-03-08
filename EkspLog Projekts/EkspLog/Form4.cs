@@ -13,6 +13,7 @@ namespace EkspLog
     public partial class Form4 : Form
     {
         double a;
+        int b;
         public Form4()
         {
             InitializeComponent();
@@ -31,9 +32,7 @@ namespace EkspLog
             butExp5.Visible = true;
             butExp5.Enabled = true;
             label2.Visible = false;
-            labExp1.Visible = false;
             textExp.Visible = false;
-            labExpanswer.Visible = false;
             labExpyn.Visible = false;
             labExp.Visible = true;
             butExpCheck.Visible = false;
@@ -41,19 +40,38 @@ namespace EkspLog
             butExpBack.Visible = false;
             butExpBack.Enabled = false;
             textExp.Text = "";
+            picExp1.Visible = false;
+            picExp1a.Visible = false;
+            picExp2.Visible = false;
+            picExp2a.Visible = false;
+            picExp3.Visible = false;
+            picExp3a.Visible = false;
+            picExp4.Visible = false;
+            picExp4a.Visible = false;
+            picExp5.Visible = false;
+            picExp5a.Visible = false;
+            textExp.Enabled = true;
         }
 
         private void Form4_Load(object sender, EventArgs e)
         {
             label2.Visible = false;
-            labExp1.Visible = false;
             textExp.Visible = false;
-            labExpanswer.Visible = false;
             labExpyn.Visible = false;
             butExpCheck.Visible = false;
             butExpCheck.Enabled = false;
             butExpBack.Visible = false;
             butExpBack.Enabled = false;
+            picExp1.Visible = false;
+            picExp1a.Visible = false;
+            picExp2.Visible = false;
+            picExp2a.Visible = false;
+            picExp3.Visible = false;
+            picExp3a.Visible = false;
+            picExp4.Visible = false;
+            picExp4a.Visible = false;
+            picExp5.Visible = false;
+            picExp5a.Visible = false;
         }
 
         private void butExpMain_Click(object sender, EventArgs e)
@@ -76,9 +94,7 @@ namespace EkspLog
             butExp5.Visible = false;
             butExp5.Enabled = false;
             label2.Visible = true;
-            labExp1.Visible = true;
             textExp.Visible = true;
-            labExpanswer.Visible = false;
             labExpyn.Visible = true;
             labExp.Visible = false;
             butExpCheck.Visible = true;
@@ -87,9 +103,9 @@ namespace EkspLog
             butExpBack.Enabled = true;
             labExpyn.Text = "";
             label2.Text = "1. Uzdevums";
-            labExp1.Text = "3^x = 9";
-            labExpanswer.Text = "3^x = 3^2,   x = 2";
             a = 2;
+            picExp1.Visible = true;
+            b = 1;
         }
 
         private void butExp2_Click(object sender, EventArgs e)
@@ -105,9 +121,7 @@ namespace EkspLog
             butExp5.Visible = false;
             butExp5.Enabled = false;
             label2.Visible = true;
-            labExp1.Visible = true;
             textExp.Visible = true;
-            labExpanswer.Visible = false;
             labExpyn.Visible = true;
             labExp.Visible = false;
             butExpCheck.Visible = true;
@@ -116,9 +130,9 @@ namespace EkspLog
             butExpBack.Enabled = true;
             labExpyn.Text = "";
             label2.Text = "2. Uzdevums";
-            labExp1.Text = "3^-2x-9 = 81";
-            labExpanswer.Text = "3^-2x-9 = 3^4,   -2x - 9 = 4,   -2x = 13,   x = -6.5";
             a = -6.5;
+            picExp2.Visible = true;
+            b = 2;
         }
 
         private void butExp3_Click(object sender, EventArgs e)
@@ -134,9 +148,7 @@ namespace EkspLog
             butExp5.Visible = false;
             butExp5.Enabled = false;
             label2.Visible = true;
-            labExp1.Visible = true;
             textExp.Visible = true;
-            labExpanswer.Visible = false;
             labExpyn.Visible = true;
             labExp.Visible = false;
             butExpCheck.Visible = true;
@@ -145,9 +157,9 @@ namespace EkspLog
             butExpBack.Enabled = true;
             labExpyn.Text = "";
             label2.Text = "3. Uzdevums";
-            labExp1.Text = "5^x + 5^x+1 = 750";
-            labExpanswer.Text = "5^x + 5^x * 5^1 = 750,   5^x + 25^x = 750,   5^x(1 + 5) = 750,   5^x * 6 = 750,   5^x = 125, 5^x = 5^3,   x=3";
             a = 3;
+            picExp3.Visible = true;
+            b = 3;
         }
 
         private void butExp4_Click(object sender, EventArgs e)
@@ -163,9 +175,7 @@ namespace EkspLog
             butExp5.Visible = false;
             butExp5.Enabled = false;
             label2.Visible = true;
-            labExp1.Visible = true;
             textExp.Visible = true;
-            labExpanswer.Visible = false;
             labExpyn.Visible = true;
             labExp.Visible = false;
             butExpCheck.Visible = true;
@@ -174,9 +184,9 @@ namespace EkspLog
             butExpBack.Enabled = true;
             labExpyn.Text = "";
             label2.Text = "4. Uzdevums";
-            labExp1.Text = "3^2x - 2 * 3^2x-1 - 2 * 3^2x-2 = 1";
-            labExpanswer.Text = "3^2x-2(3^2x-2x+2 - 2 * 3^2x-1-2x+2 - 2 * 1) = 1,   3^2x-2(3^2 - 2 * 3^1 - 2 * 1) = 1,   3^2x-2 * 1 = 1,   3^2x-2 = 1,   3^2x-2 = 3^0,   2x-2 = 0,   2x = 2,   x = 1";
             a = 1;
+            picExp4.Visible = true;
+            b = 4;
         }
 
         private void butExp5_Click(object sender, EventArgs e)
@@ -192,9 +202,7 @@ namespace EkspLog
             butExp5.Visible = false;
             butExp5.Enabled = false;
             label2.Visible = true;
-            labExp1.Visible = true;
             textExp.Visible = true;
-            labExpanswer.Visible = false;
             labExpyn.Visible = true;
             labExp.Visible = false;
             butExpCheck.Visible = true;
@@ -203,9 +211,9 @@ namespace EkspLog
             butExpBack.Enabled = true;
             labExpyn.Text = "";
             label2.Text = "5. Uzdevums";
-            labExp1.Text = "2^2x + 3 * 2^x - 28 = 0";
-            labExpanswer.Text = "2^x = y,   y^2 + 3y - 28 = 0,   D = 3^2 - 4 * 1 * (-28) = 121,   y1 = (-3 + 11) / 2 = 4,   y2 = (-3 - 11) / 2 = -7,   2^x = -7,   x = {},   2^x = 4,   x = 2";
             a = 2;
+            picExp5.Visible = true;
+            b = 5;
         }
 
         private void butExpCheck_Click(object sender, EventArgs e)
@@ -229,7 +237,28 @@ namespace EkspLog
                 {
                     labExpyn.Visible = true;
                     labExpyn.Text = "Nepareizi!";
-                    labExpanswer.Visible = true;
+                    textExp.Enabled = false;
+                    butExpCheck.Enabled = false;
+                    if (b == 1)
+                    {
+                        picExp1a.Visible = true;
+                    }
+                    else if (b == 2)
+                    {
+                        picExp2a.Visible = true;
+                    }
+                    else if (b == 3)
+                    {
+                        picExp3a.Visible = true;
+                    }
+                    else if (b == 4)
+                    {
+                        picExp4a.Visible = true;
+                    }
+                    else if (b == 5)
+                    {
+                        picExp5a.Visible = true;
+                    }
                 }
             }
         }

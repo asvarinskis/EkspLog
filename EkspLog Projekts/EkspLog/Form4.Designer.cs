@@ -37,12 +37,32 @@ namespace EkspLog
             this.butExp1 = new System.Windows.Forms.Button();
             this.labExp = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.labExp1 = new System.Windows.Forms.Label();
-            this.labExpanswer = new System.Windows.Forms.Label();
             this.textExp = new System.Windows.Forms.TextBox();
             this.labExpyn = new System.Windows.Forms.Label();
             this.butExpCheck = new System.Windows.Forms.Button();
             this.butExpMain = new System.Windows.Forms.Button();
+            this.picExp5a = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picExp5 = new System.Windows.Forms.PictureBox();
+            this.picExp4a = new System.Windows.Forms.PictureBox();
+            this.picExp4 = new System.Windows.Forms.PictureBox();
+            this.picExp3a = new System.Windows.Forms.PictureBox();
+            this.picExp3 = new System.Windows.Forms.PictureBox();
+            this.picExp2a = new System.Windows.Forms.PictureBox();
+            this.picExp2 = new System.Windows.Forms.PictureBox();
+            this.picExp1a = new System.Windows.Forms.PictureBox();
+            this.picExp1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp5a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp4a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp3a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp2a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp1a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp1)).BeginInit();
             this.SuspendLayout();
             // 
             // butExpBack
@@ -131,24 +151,6 @@ namespace EkspLog
             this.label2.TabIndex = 28;
             this.label2.Text = "1. Uzdevums";
             // 
-            // labExp1
-            // 
-            this.labExp1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labExp1.Location = new System.Drawing.Point(15, 86);
-            this.labExp1.Name = "labExp1";
-            this.labExp1.Size = new System.Drawing.Size(385, 70);
-            this.labExp1.TabIndex = 29;
-            this.labExp1.Text = "exp";
-            // 
-            // labExpanswer
-            // 
-            this.labExpanswer.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labExpanswer.Location = new System.Drawing.Point(16, 164);
-            this.labExpanswer.Name = "labExpanswer";
-            this.labExpanswer.Size = new System.Drawing.Size(587, 172);
-            this.labExpanswer.TabIndex = 30;
-            this.labExpanswer.Text = "exp";
-            // 
             // textExp
             // 
             this.textExp.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -190,17 +192,124 @@ namespace EkspLog
             this.butExpMain.UseVisualStyleBackColor = true;
             this.butExpMain.Click += new System.EventHandler(this.butExpMain_Click);
             // 
+            // picExp5a
+            // 
+            this.picExp5a.Image = global::EkspLog.Properties.Resources._5th___Copy1;
+            this.picExp5a.Location = new System.Drawing.Point(1, 148);
+            this.picExp5a.Name = "picExp5a";
+            this.picExp5a.Size = new System.Drawing.Size(468, 250);
+            this.picExp5a.TabIndex = 45;
+            this.picExp5a.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(-23, -46);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 44;
+            this.pictureBox1.TabStop = false;
+            // 
+            // picExp5
+            // 
+            this.picExp5.Image = global::EkspLog.Properties.Resources._5th_11;
+            this.picExp5.Location = new System.Drawing.Point(12, 78);
+            this.picExp5.Name = "picExp5";
+            this.picExp5.Size = new System.Drawing.Size(311, 39);
+            this.picExp5.TabIndex = 43;
+            this.picExp5.TabStop = false;
+            // 
+            // picExp4a
+            // 
+            this.picExp4a.Image = global::EkspLog.Properties.Resources._4th___Copy___Copy1;
+            this.picExp4a.Location = new System.Drawing.Point(1, 156);
+            this.picExp4a.Name = "picExp4a";
+            this.picExp4a.Size = new System.Drawing.Size(552, 242);
+            this.picExp4a.TabIndex = 42;
+            this.picExp4a.TabStop = false;
+            // 
+            // picExp4
+            // 
+            this.picExp4.Image = global::EkspLog.Properties.Resources._4th_11;
+            this.picExp4.Location = new System.Drawing.Point(12, 78);
+            this.picExp4.Name = "picExp4";
+            this.picExp4.Size = new System.Drawing.Size(530, 50);
+            this.picExp4.TabIndex = 41;
+            this.picExp4.TabStop = false;
+            // 
+            // picExp3a
+            // 
+            this.picExp3a.Image = global::EkspLog.Properties.Resources._3rd___Copy___Copy;
+            this.picExp3a.Location = new System.Drawing.Point(1, 163);
+            this.picExp3a.Name = "picExp3a";
+            this.picExp3a.Size = new System.Drawing.Size(602, 183);
+            this.picExp3a.TabIndex = 40;
+            this.picExp3a.TabStop = false;
+            // 
+            // picExp3
+            // 
+            this.picExp3.Image = global::EkspLog.Properties.Resources._3rd_11;
+            this.picExp3.Location = new System.Drawing.Point(12, 78);
+            this.picExp3.Name = "picExp3";
+            this.picExp3.Size = new System.Drawing.Size(305, 51);
+            this.picExp3.TabIndex = 39;
+            this.picExp3.TabStop = false;
+            // 
+            // picExp2a
+            // 
+            this.picExp2a.Image = global::EkspLog.Properties.Resources._2nd___Copy1;
+            this.picExp2a.Location = new System.Drawing.Point(1, 163);
+            this.picExp2a.Name = "picExp2a";
+            this.picExp2a.Size = new System.Drawing.Size(602, 97);
+            this.picExp2a.TabIndex = 38;
+            this.picExp2a.TabStop = false;
+            // 
+            // picExp2
+            // 
+            this.picExp2.Image = global::EkspLog.Properties.Resources._2nd_1;
+            this.picExp2.Location = new System.Drawing.Point(12, 78);
+            this.picExp2.Name = "picExp2";
+            this.picExp2.Size = new System.Drawing.Size(305, 60);
+            this.picExp2.TabIndex = 37;
+            this.picExp2.TabStop = false;
+            // 
+            // picExp1a
+            // 
+            this.picExp1a.Image = global::EkspLog.Properties.Resources._1st___Copy___Copy2;
+            this.picExp1a.Location = new System.Drawing.Point(12, 164);
+            this.picExp1a.Name = "picExp1a";
+            this.picExp1a.Size = new System.Drawing.Size(405, 68);
+            this.picExp1a.TabIndex = 36;
+            this.picExp1a.TabStop = false;
+            // 
+            // picExp1
+            // 
+            this.picExp1.Image = global::EkspLog.Properties.Resources._1st_1;
+            this.picExp1.Location = new System.Drawing.Point(12, 78);
+            this.picExp1.Name = "picExp1";
+            this.picExp1.Size = new System.Drawing.Size(160, 56);
+            this.picExp1.TabIndex = 35;
+            this.picExp1.TabStop = false;
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.picExp5a);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picExp5);
+            this.Controls.Add(this.picExp4a);
+            this.Controls.Add(this.picExp4);
+            this.Controls.Add(this.picExp3a);
+            this.Controls.Add(this.picExp3);
+            this.Controls.Add(this.picExp2a);
+            this.Controls.Add(this.picExp2);
+            this.Controls.Add(this.picExp1a);
+            this.Controls.Add(this.picExp1);
             this.Controls.Add(this.butExpMain);
             this.Controls.Add(this.butExpCheck);
             this.Controls.Add(this.labExpyn);
             this.Controls.Add(this.textExp);
-            this.Controls.Add(this.labExpanswer);
-            this.Controls.Add(this.labExp1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.butExpBack);
             this.Controls.Add(this.butExp5);
@@ -212,6 +321,17 @@ namespace EkspLog
             this.Name = "Form4";
             this.Text = "EkspLog";
             this.Load += new System.EventHandler(this.Form4_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picExp5a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp4a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp3a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp2a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp1a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picExp1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,11 +347,20 @@ namespace EkspLog
         private System.Windows.Forms.Button butExp1;
         private System.Windows.Forms.Label labExp;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label labExp1;
-        private System.Windows.Forms.Label labExpanswer;
         private System.Windows.Forms.TextBox textExp;
         private System.Windows.Forms.Label labExpyn;
         private System.Windows.Forms.Button butExpCheck;
         private System.Windows.Forms.Button butExpMain;
+        private System.Windows.Forms.PictureBox picExp1;
+        private System.Windows.Forms.PictureBox picExp1a;
+        private System.Windows.Forms.PictureBox picExp2;
+        private System.Windows.Forms.PictureBox picExp2a;
+        private System.Windows.Forms.PictureBox picExp3;
+        private System.Windows.Forms.PictureBox picExp3a;
+        private System.Windows.Forms.PictureBox picExp4;
+        private System.Windows.Forms.PictureBox picExp4a;
+        private System.Windows.Forms.PictureBox picExp5;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox picExp5a;
     }
 }

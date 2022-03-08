@@ -32,7 +32,6 @@ namespace EkspLog
             this.butBack = new System.Windows.Forms.Button();
             this.lab2 = new System.Windows.Forms.Label();
             this.lab3 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // butBack
@@ -67,23 +66,11 @@ namespace EkspLog
     "ātas pareizās atbildes un risinājumu soļi.";
             this.lab3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
-            // 
-            this.label1.Font = new System.Drawing.Font("Arial", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 245);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(776, 94);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "(Pakāpju darbības ir rakstītas bez atstarpēm, lai tās atšķirtu no citām darbībām)" +
-    "";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.lab3);
             this.Controls.Add(this.lab2);
             this.Controls.Add(this.butBack);
@@ -98,6 +85,5 @@ namespace EkspLog
         private System.Windows.Forms.Button butBack;
         private System.Windows.Forms.Label lab2;
         private System.Windows.Forms.Label lab3;
-        private System.Windows.Forms.Label label1;
     }
 }

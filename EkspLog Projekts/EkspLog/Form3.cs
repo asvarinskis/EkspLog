@@ -13,6 +13,7 @@ namespace EkspLog
     public partial class Form3 : Form
     {
         double a;
+        int b;
         public Form3()
         {
             InitializeComponent();
@@ -31,15 +32,24 @@ namespace EkspLog
             butLog5.Visible = true;
             butLog5.Enabled = true;
             label1.Visible = false;
-            labLog1.Visible = false;
             textLog1.Visible = false;
-            labLog1answer.Visible = false;
             labLog1yn.Visible = false;
             butLog1Check.Visible = false;
             butLog1Check.Enabled = false;
             butLogBack.Visible = false;
             butLogBack.Enabled = false;
             textLog1.Text = "";
+            picLog1.Visible = false;
+            picLog1a.Visible = false;
+            picLog2.Visible = false;
+            picLog2a.Visible = false;
+            picLog3.Visible = false;
+            picLog3a.Visible = false;
+            picLog4.Visible = false;
+            picLog4a.Visible = false;
+            picLog5.Visible = false;
+            picLog5a.Visible = false;
+            textLog1.Enabled = true;
         }
 
         private void butLog1_Click(object sender, EventArgs e)
@@ -55,9 +65,8 @@ namespace EkspLog
             butLog5.Visible = false;
             butLog5.Enabled = false;
             label1.Visible = true;
-            labLog1.Visible = true;
+            picLog1.Visible = true;
             textLog1.Visible = true;
-            labLog1answer.Visible = false;
             labLog1yn.Visible = true;
             butLog1Check.Visible = true;
             butLog1Check.Enabled = true;
@@ -65,17 +74,24 @@ namespace EkspLog
             butLogBack.Enabled = true;
             labLog1yn.Text = "";
             label1.Text = "1. Uzdevums";
-            labLog1.Text = "log 2 (8)";
-            labLog1answer.Text = "log 2 (8) = x,   2^x = 8,   2^x =2^3,    x = 3";
             a = 3;
+            b = 1;
         }
 
         private void Form3_Load(object sender, EventArgs e)
         {
             label1.Visible = false;
-            labLog1.Visible = false;
+            picLog1.Visible = false;
+            picLog1a.Visible = false;
+            picLog2.Visible = false;
+            picLog2a.Visible = false;
+            picLog3.Visible = false;
+            picLog3a.Visible = false;
+            picLog4.Visible = false;
+            picLog4a.Visible = false;
+            picLog5.Visible = false;
+            picLog5a.Visible = false;
             textLog1.Visible = false;
-            labLog1answer.Visible = false;
             labLog1yn.Visible = false;
             butLog1Check.Visible = false;
             butLog1Check.Enabled = false;
@@ -111,7 +127,28 @@ namespace EkspLog
                 {
                     labLog1yn.Visible = true;
                     labLog1yn.Text = "Nepareizi!";
-                    labLog1answer.Visible = true;
+                    textLog1.Enabled = false;
+                    butLog1Check.Enabled = false;
+                    if (b == 1)
+                    {
+                        picLog1a.Visible = true;
+                    }
+                    else if (b == 2)
+                    {
+                        picLog2a.Visible = true;
+                    }
+                    else if (b == 3)
+                    {
+                        picLog3a.Visible = true;
+                    }
+                    else if (b == 4)
+                    {
+                        picLog4a.Visible = true;
+                    }
+                    else if (b == 5)
+                    {
+                        picLog5a.Visible = true;
+                    }
                 }
             }
         }
@@ -129,9 +166,7 @@ namespace EkspLog
             butLog5.Visible = false;
             butLog5.Enabled = false;
             label1.Visible = true;
-            labLog1.Visible = true;
             textLog1.Visible = true;
-            labLog1answer.Visible = false;
             labLog1yn.Visible = true;
             butLog1Check.Visible = true;
             butLog1Check.Enabled = true;
@@ -139,9 +174,9 @@ namespace EkspLog
             butLogBack.Enabled = true;
             labLog1yn.Text = "";
             label1.Text = "2. Uzdevums";
-            labLog1.Text = "lg 100";
-            labLog1answer.Text = "lg 100 = log 10 (100),   log 10 (100) = x,   10^x = 100,   10^x = 10^2,   x = 2";
             a = 2;
+            picLog2.Visible = true;
+            b = 2;
         }
 
         private void butLog3_Click(object sender, EventArgs e)
@@ -157,9 +192,7 @@ namespace EkspLog
             butLog5.Visible = false;
             butLog5.Enabled = false;
             label1.Visible = true;
-            labLog1.Visible = true;
             textLog1.Visible = true;
-            labLog1answer.Visible = false;
             labLog1yn.Visible = true;
             butLog1Check.Visible = true;
             butLog1Check.Enabled = true;
@@ -167,9 +200,9 @@ namespace EkspLog
             butLogBack.Enabled = true;
             labLog1yn.Text = "";
             label1.Text = "3. Uzdevums";
-            labLog1.Text = "6^log 6 (10)";
-            labLog1answer.Text = "a^log a (b) = b,   6^log 6 (10) = 10";
             a = 10;
+            picLog3.Visible = true;
+            b = 3;
         }
 
         private void butLog4_Click(object sender, EventArgs e)
@@ -185,9 +218,7 @@ namespace EkspLog
             butLog5.Visible = false;
             butLog5.Enabled = false;
             label1.Visible = true;
-            labLog1.Visible = true;
             textLog1.Visible = true;
-            labLog1answer.Visible = false;
             labLog1yn.Visible = true;
             butLog1Check.Visible = true;
             butLog1Check.Enabled = true;
@@ -195,9 +226,9 @@ namespace EkspLog
             butLogBack.Enabled = true;
             labLog1yn.Text = "";
             label1.Text = "4. Uzdevums";
-            labLog1.Text = "3^log 3 (4)+2";
-            labLog1answer.Text = "a^n+k = a^n  *  a^k,   3^log 3 (4)  *  3^2   =   4  *  9 = 36";
             a = 36;
+            picLog4.Visible = true;
+            b = 4;
         }
 
         private void butLog5_Click(object sender, EventArgs e)
@@ -213,9 +244,7 @@ namespace EkspLog
             butLog5.Visible = false;
             butLog5.Enabled = false;
             label1.Visible = true;
-            labLog1.Visible = true;
             textLog1.Visible = true;
-            labLog1answer.Visible = false;
             labLog1yn.Visible = true;
             butLog1Check.Visible = true;
             butLog1Check.Enabled = true;
@@ -223,9 +252,9 @@ namespace EkspLog
             butLogBack.Enabled = true;
             labLog1yn.Text = "";
             label1.Text = "5. Uzdevums";
-            labLog1.Text = "81^log 9 (10)";
-            labLog1answer.Text = "81^log 9 (10)   =   (3^4)^log 9 (10)   =   3^4log 9 (10)   =   3^4log 3^2 (10)   =   3^4x0.5log 3 (10)   =   3^2log 3 (10)   =   (3^log 3 (10))^2   =   10^2   =   100";
             a = 100;
+            picLog5.Visible = true;
+            b = 5;
         }
     }
 }

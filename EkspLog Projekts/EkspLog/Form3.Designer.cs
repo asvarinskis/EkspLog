@@ -37,12 +37,30 @@ namespace EkspLog
             this.butLog5 = new System.Windows.Forms.Button();
             this.butLogBack = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.labLog1 = new System.Windows.Forms.Label();
             this.textLog1 = new System.Windows.Forms.TextBox();
-            this.labLog1answer = new System.Windows.Forms.Label();
             this.labLog1yn = new System.Windows.Forms.Label();
             this.butLog1Check = new System.Windows.Forms.Button();
             this.butLogMain = new System.Windows.Forms.Button();
+            this.picLog5a = new System.Windows.Forms.PictureBox();
+            this.picLog5 = new System.Windows.Forms.PictureBox();
+            this.picLog4a = new System.Windows.Forms.PictureBox();
+            this.picLog4 = new System.Windows.Forms.PictureBox();
+            this.picLog3a = new System.Windows.Forms.PictureBox();
+            this.picLog3 = new System.Windows.Forms.PictureBox();
+            this.picLog2 = new System.Windows.Forms.PictureBox();
+            this.picLog2a = new System.Windows.Forms.PictureBox();
+            this.picLog1a = new System.Windows.Forms.PictureBox();
+            this.picLog1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog5a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog4a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog3a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog2a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog1a)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog1)).BeginInit();
             this.SuspendLayout();
             // 
             // labLog
@@ -131,15 +149,6 @@ namespace EkspLog
             this.label1.TabIndex = 16;
             this.label1.Text = "1. Uzdevums";
             // 
-            // labLog1
-            // 
-            this.labLog1.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labLog1.Location = new System.Drawing.Point(15, 86);
-            this.labLog1.Name = "labLog1";
-            this.labLog1.Size = new System.Drawing.Size(385, 70);
-            this.labLog1.TabIndex = 17;
-            this.labLog1.Text = "log 2 (8) =";
-            // 
             // textLog1
             // 
             this.textLog1.Font = new System.Drawing.Font("Arial", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -148,15 +157,6 @@ namespace EkspLog
             this.textLog1.Name = "textLog1";
             this.textLog1.Size = new System.Drawing.Size(132, 57);
             this.textLog1.TabIndex = 18;
-            // 
-            // labLog1answer
-            // 
-            this.labLog1answer.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labLog1answer.Location = new System.Drawing.Point(16, 164);
-            this.labLog1answer.Name = "labLog1answer";
-            this.labLog1answer.Size = new System.Drawing.Size(587, 172);
-            this.labLog1answer.TabIndex = 19;
-            this.labLog1answer.Text = "log 2 (8) = x 2^x = 8   2^x =2^3    x = 3";
             // 
             // labLog1yn
             // 
@@ -190,17 +190,115 @@ namespace EkspLog
             this.butLogMain.UseVisualStyleBackColor = true;
             this.butLogMain.Click += new System.EventHandler(this.butLogMain_Click);
             // 
+            // picLog5a
+            // 
+            this.picLog5a.Image = global::EkspLog.Properties.Resources._5th_2;
+            this.picLog5a.Location = new System.Drawing.Point(3, 164);
+            this.picLog5a.Name = "picLog5a";
+            this.picLog5a.Size = new System.Drawing.Size(603, 216);
+            this.picLog5a.TabIndex = 32;
+            this.picLog5a.TabStop = false;
+            // 
+            // picLog5
+            // 
+            this.picLog5.Image = global::EkspLog.Properties.Resources._5th_1;
+            this.picLog5.Location = new System.Drawing.Point(12, 78);
+            this.picLog5.Name = "picLog5";
+            this.picLog5.Size = new System.Drawing.Size(153, 55);
+            this.picLog5.TabIndex = 31;
+            this.picLog5.TabStop = false;
+            // 
+            // picLog4a
+            // 
+            this.picLog4a.Image = global::EkspLog.Properties.Resources._4th_2;
+            this.picLog4a.Location = new System.Drawing.Point(3, 164);
+            this.picLog4a.Name = "picLog4a";
+            this.picLog4a.Size = new System.Drawing.Size(548, 138);
+            this.picLog4a.TabIndex = 30;
+            this.picLog4a.TabStop = false;
+            // 
+            // picLog4
+            // 
+            this.picLog4.Image = global::EkspLog.Properties.Resources._4th_1;
+            this.picLog4.Location = new System.Drawing.Point(12, 78);
+            this.picLog4.Name = "picLog4";
+            this.picLog4.Size = new System.Drawing.Size(203, 67);
+            this.picLog4.TabIndex = 29;
+            this.picLog4.TabStop = false;
+            // 
+            // picLog3a
+            // 
+            this.picLog3a.Image = global::EkspLog.Properties.Resources._3rd_2;
+            this.picLog3a.Location = new System.Drawing.Point(3, 164);
+            this.picLog3a.Name = "picLog3a";
+            this.picLog3a.Size = new System.Drawing.Size(600, 69);
+            this.picLog3a.TabIndex = 28;
+            this.picLog3a.TabStop = false;
+            // 
+            // picLog3
+            // 
+            this.picLog3.Image = global::EkspLog.Properties.Resources._3rd_1;
+            this.picLog3.Location = new System.Drawing.Point(12, 78);
+            this.picLog3.Name = "picLog3";
+            this.picLog3.Size = new System.Drawing.Size(153, 67);
+            this.picLog3.TabIndex = 27;
+            this.picLog3.TabStop = false;
+            // 
+            // picLog2
+            // 
+            this.picLog2.Image = global::EkspLog.Properties.Resources._2nd___Copy;
+            this.picLog2.Location = new System.Drawing.Point(12, 82);
+            this.picLog2.Name = "picLog2";
+            this.picLog2.Size = new System.Drawing.Size(153, 62);
+            this.picLog2.TabIndex = 26;
+            this.picLog2.TabStop = false;
+            // 
+            // picLog2a
+            // 
+            this.picLog2a.Image = global::EkspLog.Properties.Resources._2nd___Copy__2_;
+            this.picLog2a.Location = new System.Drawing.Point(3, 164);
+            this.picLog2a.Name = "picLog2a";
+            this.picLog2a.Size = new System.Drawing.Size(603, 113);
+            this.picLog2a.TabIndex = 25;
+            this.picLog2a.TabStop = false;
+            // 
+            // picLog1a
+            // 
+            this.picLog1a.Image = global::EkspLog.Properties.Resources._1st___Copy___Copy__2_2;
+            this.picLog1a.Location = new System.Drawing.Point(3, 164);
+            this.picLog1a.Name = "picLog1a";
+            this.picLog1a.Size = new System.Drawing.Size(600, 50);
+            this.picLog1a.TabIndex = 24;
+            this.picLog1a.TabStop = false;
+            // 
+            // picLog1
+            // 
+            this.picLog1.Image = global::EkspLog.Properties.Resources._1st___Copy___Copy1;
+            this.picLog1.Location = new System.Drawing.Point(12, 82);
+            this.picLog1.Name = "picLog1";
+            this.picLog1.Size = new System.Drawing.Size(142, 62);
+            this.picLog1.TabIndex = 23;
+            this.picLog1.TabStop = false;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.picLog5a);
+            this.Controls.Add(this.picLog5);
+            this.Controls.Add(this.picLog4a);
+            this.Controls.Add(this.picLog4);
+            this.Controls.Add(this.picLog3a);
+            this.Controls.Add(this.picLog3);
+            this.Controls.Add(this.picLog2);
+            this.Controls.Add(this.picLog2a);
+            this.Controls.Add(this.picLog1a);
+            this.Controls.Add(this.picLog1);
             this.Controls.Add(this.butLogMain);
             this.Controls.Add(this.butLog1Check);
             this.Controls.Add(this.labLog1yn);
-            this.Controls.Add(this.labLog1answer);
             this.Controls.Add(this.textLog1);
-            this.Controls.Add(this.labLog1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.butLogBack);
             this.Controls.Add(this.butLog5);
@@ -212,6 +310,16 @@ namespace EkspLog
             this.Name = "Form3";
             this.Text = "EkspLog";
             this.Load += new System.EventHandler(this.Form3_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.picLog5a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog4a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog3a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog2a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog1a)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picLog1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -227,11 +335,19 @@ namespace EkspLog
         private System.Windows.Forms.Button butLog5;
         private System.Windows.Forms.Button butLogBack;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label labLog1;
         private System.Windows.Forms.TextBox textLog1;
-        private System.Windows.Forms.Label labLog1answer;
         private System.Windows.Forms.Label labLog1yn;
         private System.Windows.Forms.Button butLog1Check;
         private System.Windows.Forms.Button butLogMain;
+        private System.Windows.Forms.PictureBox picLog1;
+        private System.Windows.Forms.PictureBox picLog1a;
+        private System.Windows.Forms.PictureBox picLog2a;
+        private System.Windows.Forms.PictureBox picLog2;
+        private System.Windows.Forms.PictureBox picLog3;
+        private System.Windows.Forms.PictureBox picLog3a;
+        private System.Windows.Forms.PictureBox picLog4;
+        private System.Windows.Forms.PictureBox picLog4a;
+        private System.Windows.Forms.PictureBox picLog5;
+        private System.Windows.Forms.PictureBox picLog5a;
     }
 }
